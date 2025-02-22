@@ -289,6 +289,18 @@ end
 
 end)()
 
+-- Maniac Eyes
+coroutine.wrap(function()
+    while true do
+        wait(31)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(0)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoanggphuc/Entity-obfuscate/refs/heads/main/Maniack%20Eyes.lua"))()
+
+end 
+
+end)()
+
 -- Unfair Claim
 coroutine.wrap(function()
     while true do
