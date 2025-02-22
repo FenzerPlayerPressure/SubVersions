@@ -312,3 +312,15 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoanggphuc/Entity-
 end
 
 end)()
+
+-- Smiler
+coroutine.wrap(function()
+    while true do
+        wait(80)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(0)
+loadstring(game:HttpGet('https://pastefy.app/YMa2CPBC/raw'))()
+
+end
+
+end)()
